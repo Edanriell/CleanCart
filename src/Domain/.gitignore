@@ -1,0 +1,73 @@
+﻿# =========================
+# .NET / Build output
+# =========================
+bin/
+obj/
+[Bb]uild/
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# .NET Core / SDK artifacts
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# =========================
+# Rider / JetBrains IDE
+# =========================
+.idea/
+*.iml
+*.sln.iml
+
+# Rider local settings
+.vs/
+.vscode/ 
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# NuGet fallback folder
+.nuget/
+
+# =========================
+# Logs / runtime
+# =========================
+*.log
+logs/
+ 
+# =========================
+# Publish output
+# =========================
+publish/
+*.publish/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Secrets (optional but recommended)
+# =========================
+appsettings.Development.json
+secrets.json
