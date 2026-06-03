@@ -1,5 +1,4 @@
 ﻿using System.Reflection;
-using Domain.Entities;
 
 namespace Domain.UnitTests.Entities;
 
