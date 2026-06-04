@@ -17,7 +17,7 @@ public class ShoppingCartTests
         Assert.Single(shoppingCart.Items);
         Assert.Equal(product.Id, shoppingCart.Items.First().ProductId);
         Assert.Equal(1, shoppingCart.Items.First().Quantity);
-    }
+    } 
 
     [Fact]
     public void AddItem_IncrementsQuantity_WhenExistingItemIsNotNull()
